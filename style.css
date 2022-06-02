@@ -62,7 +62,7 @@ body {
 .content .details {
     padding: 40px;
     width: 100%;
-    transform: translateY(200px);
+    transform: translateY(215px);
     transition: 0.5s ease;
 }
 
@@ -80,19 +80,20 @@ body {
     opacity: 0.5;
 }
 
-.details h3 {
+.details .about {
     font-size: 1em;
     color: #555;
-    line-height: 1.2em;
+    line-height: 1.5em;
     font-weight: 600;
     margin-top: 20px;
     text-align: center;
 }
 
-.details h3 span {
+.details .about p {
     font-size: 0.85em;
     font-weight: 400;
     opacity: 0.5;
+    padding-top: 5px;
 }
 
 .details .actionBtn {
